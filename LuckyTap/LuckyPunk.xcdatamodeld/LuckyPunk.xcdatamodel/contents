@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E266" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FirstGame" representedClassName="FirstGame" syncable="YES" codeGenerationType="class">
+        <attribute name="isFirstGameEver" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="GameData" representedClassName=".GameData" syncable="YES">
+        <attribute name="daysTrialsLeft" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="extraTrials" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isUnlimitedOn" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lastLDatePlayed" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="GameData" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="FirstGame" positionX="-63" positionY="9" width="128" height="28"/>
+    </elements>
+</model>
